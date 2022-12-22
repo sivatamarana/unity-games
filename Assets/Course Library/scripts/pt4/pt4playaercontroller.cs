@@ -31,7 +31,7 @@ public class pt4playaercontroller : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {   
-        if (other.CompareTag("powerup"))
+        if (other.CompareTag("powerup"))// if collide with particular tag then do opertion
         {
             powerupindicator.gameObject.SetActive(true);
             powerup = true;
